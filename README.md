@@ -1,6 +1,35 @@
 # dotfiles
 
-## Install
+## Homebrew
+
+### Install
 ```bash
-cd; curl -#L https://github.com/mathiasbynens/dotfiles/tarball/main | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+### Update
+```bash
+brew update
+```
+
+## Install MacOS-applications
+```bash
+brew install --cask \
+  keeper-password-manager \
+  firefox \
+  brave-browser \
+  iterm2 \
+  visual-studio-code \
+  sublime-text \
+  docker \
+  jiggler \
+  docker
+```
+
+## Install terminal-applications
+```bash
+brew install \
+  wget \
+  git \
+  nvm
+ ```
